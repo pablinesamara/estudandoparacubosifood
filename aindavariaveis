@@ -1,0 +1,17 @@
+const endereco= "Avenida 1";
+let preco_do_leite = 9.5;
+let preçoDoQueijo= 30;
+let precoDaPizza;//atribui variavel sem valor
+
+console.log("Preço da Pizza", precoDaPizza);//exibe variavel+ undefined
+
+precoDaPizza= 16;//atribui valor a variavel
+
+console.log("Preço da Pizza atualizado", precoDaPizza);//exibe variavel ja com valor atribuido
+
+console.log("Preço do leite",preco_do_leite);
+console.log("Preço Do Queijo", preçoDoQueijo);
+
+preco_do_leite= 7;
+
+console.log("Preco do leite",preco_do_leite);
